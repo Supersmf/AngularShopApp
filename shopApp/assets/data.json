@@ -1,0 +1,281 @@
+[
+{
+  "id": 1,
+  "company": "Mila",
+  "email": "info@mila.by",
+  "street": "Partizanskiy Prospekt 104,",
+  "suite": "Apt. 106",
+  "city": "Minsk",
+  "phone": "8 017 331-97-54",
+  "website": "mila.by",
+  "geo":{
+      "lat": "53.868737",
+      "lng": "27.648673"
+    },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 2,
+  "company": "Megatop",
+  "email": "reklama@megatop.by",
+  "street": "Partizanskiy Prospekt",
+  "suite": "Apt. 87",
+  "city": "Minsk",
+  "phone": "8 017 295-22-92",
+  "website": "megatop.by",
+  "geo":{
+    "lat": "53.874662",
+    "lng": "27.632778"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 3,
+  "company": "Vitalur",
+  "email": "vitalur@vitalur.by",
+  "street": "Majakoŭskaha",
+  "suite": "Apt. 176",
+  "city": "Minsk",
+  "phone": "8 017 223-29-24",
+  "website": "vitalur.by",
+    "geo":{
+    "lat": "53.859481",
+    "lng": "27.571591"
+    },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 4,
+  "company": "Euroopt",
+  "email": "info@eurotorg.by",
+  "street": "Alibiehava",
+  "suite": "Apt. 13/1",
+  "city": "Minsk",
+  "phone": "8 017 270-30-46",
+  "website": "euroopt.by",
+  "geo":{
+    "lat": "53.871185",
+    "lng": "27.473565"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 5,
+  "company": "Almi",
+  "email": "info@almi.by",
+  "street": "Prytyckaha",
+  "suite": "Apt. 93",
+  "city": "Minsk",
+  "phone": "8 017 308-16-16",
+  "website": "almi.by",
+  "geo":{
+    "lat": "53.906330",
+    "lng": "27.439930"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 6,
+  "company": "ProStore",
+  "email": "info@prostore.by",
+  "street": "Prospekte Pobeditelei",
+  "suite": "Apt. 84",
+  "city": "Minsk",
+  "phone": "8 017 394-27-57",
+  "website": "prostore.by",
+  "geo":{
+      "lat": "53.938273",
+      "lng": "27.487310"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 7,
+  "company": "Green",
+  "email": "info@green-market.by",
+  "street": "Timirjazieva",
+  "suite": "Apt. 7",
+  "city": "Minsk",
+  "phone": "8 017 362-33-09",
+  "website": "green-market.by",
+  "geo":{
+      "lat": "53.926961",
+      "lng": "27.511587"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 8,
+  "company": "Oris-torg",
+  "email": "info@oris-torg.by",
+  "street": "Syrganova",
+  "suite": "Apt. 78/A",
+  "city": "Minsk",
+  "phone": "8 017 202-10-53",
+  "website": "oris-torg.by",
+  "geo":{
+      "lat": "53.932052",
+      "lng": "27.579820"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 9,
+  "company": "Stalica",
+  "email": "info@tc-stolica.by",
+  "street": "Praspyekt Nyezalyezhnastsi",
+  "suite": "Apt. 3-2",
+  "city": "Minsk",
+  "phone": "8 017 226-18-31",
+  "website": "tc-stolica.by",
+  "geo":{
+      "lat": "53.895854",
+      "lng": "27.547941"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+},
+{
+  "id": 10,
+  "company": "Dana Mall",
+  "email": "info@dana-mall.com",
+  "street": "Petr Mstislavca",
+  "suite": "Apt. 11",
+  "city": "Minsk",
+  "phone": "8 017 269-32-79",
+  "website": "dana-mall.com",
+  "geo":{
+      "lat": "53.934073",
+      "lng": "27.651962"
+  },
+  "goods":[
+    {"name": "Bread",
+      "info": "Bread is a staple food prepared from a dough of flour and water, usually by baking.",
+      "price": 1.2
+    },
+    {"name": "Orange",
+      "info": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.",
+      "price": 2.5
+    },
+    {"name": "Juice",
+      "info": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "price": 1.8
+    }
+  ]
+}]
