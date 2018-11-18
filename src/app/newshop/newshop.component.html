@@ -1,0 +1,150 @@
+<form #t="ngForm" (ngSubmit)="onSubmit(t)">
+  <div class="form-row justify-content-left col-8">  	
+  	<label for="inputCity" class="col-2">Shop Name</label>
+    <div class="form-group col-10 ">
+      <input 
+      	type="text" 
+      	class="form-control"
+      	id="inputName" 
+      	placeholder="Name"
+      	required
+      	ngModel
+      	name="title"
+      	#title="ngModel"
+      	minlength="3"
+      	maxlength="25">
+      	<div class="alert alert-danger" *ngIf="title.touched && !title.valid">
+      		<div *ngIf="title.errors.required">This field is required</div>
+      		<div *ngIf="title.errors.minlength">
+      			Product name should be minimum {{ title.errors.minlength.requiredLength }} characters.
+      		</div>
+      	</div>
+    </div>
+  </div>  
+
+  <div class="form-row col-md-8">  	
+  	<label for="inputCity" class="col-2">Address</label>
+  	<div class="form-row col-10 justify-content-center">
+	    <div class="form-group col-4">
+	      <input 
+	      	type="text" 
+	      	class="form-control"
+	      	id="inputCity" 
+	      	placeholder="City"
+	      	required
+	      	ngModel
+	      	name="city"
+	      	#city="ngModel"
+	      	minlength="3"
+	      	maxlength="15">
+	      	<div class="alert alert-danger" *ngIf="city.touched && !city.valid">
+	      		<div *ngIf="city.errors.required">This field is required</div>
+	      		<div *ngIf="city.errors.minlength">
+	      			Product name should be minimum {{ city.errors.minlength.requiredLength }} characters.
+	      		</div>
+	      	</div>
+	    </div>
+	    <div class="form-group col-4">
+	      <input 
+	      	type="text" 
+	      	class="form-control"
+	      	id="inputStreet" 
+	      	placeholder="Street"
+	      	required
+	      	ngModel
+	      	name="street"
+	      	#street="ngModel"
+	      	minlength="3"
+	      	maxlength="15">
+	      	<div class="alert alert-danger" *ngIf="street.touched && !street.valid">
+	      		<div *ngIf="street.errors.required">This field is required</div>
+	      		<div *ngIf="street.errors.minlength">
+	      			Product name should be minimum {{ street.errors.minlength.requiredLength }} characters.
+	      		</div>
+	      	</div>
+	    </div>
+	    <div class="form-group col-4">
+	      <input 
+	      	type="text" 
+	      	class="form-control"
+	      	id="inputSuite" 
+	      	placeholder="Suite"
+	      	required
+	      	ngModel
+	      	name="suite"
+	      	#suite="ngModel"
+	      	minlength="3"
+	      	maxlength="15">
+	      	<div class="alert alert-danger" *ngIf="suite.touched && !suite.valid">
+	      		<div *ngIf="suite.errors.required">This field is required</div>
+	      		<div *ngIf="suite.errors.minlength">
+	      			Product name should be minimum {{ suite.errors.minlength.requiredLength }} characters.
+	      		</div>
+	      	</div>
+	    </div>
+	</div>
+  </div> 
+
+  <div class="form-row col-md-8">  	
+  	<label for="inputCity" class="col-2">Contacts</label>
+  	<div class="form-row col-10 justify-content-center">
+	    <div class="form-group col-4">
+	      <input type="text" class="form-control" placeholder="Phone" 
+	     		ngModel name="phone" #phone="ngModel">
+	    </div>
+	    <div class="form-group col-4">
+	      <input type="text" class="form-control" placeholder="Website" 
+	     		ngModel name="website" #website="ngModel">
+	    </div>
+	    <div class="form-group col-4">
+	      <input type="text" class="form-control" placeholder="Email" 
+	     		ngModel name="email" #email="ngModel">
+	    </div>
+	</div>
+  </div>  
+
+
+  <div class="form-row col-md-8">  	
+  	<label for="inputCity" class="col-2">Location</label>
+  	<div class="form-row col-10 justify-content-center">
+	    <div class="form-group col-4">
+	      <input 
+	      	type="text" 
+	      	class="form-control"
+	      	placeholder="lat"
+	      	required
+	      	ngModel
+	      	name="lat"
+	      	#lat="ngModel"
+	      	pattern="[+-]?([0-9]*[.])?[0-9]+">
+	      	<div class="alert alert-danger" *ngIf="lat.touched && !lat.valid">
+                <div *ngIf="lat.errors.required">This field is required</div>
+                <div *ngIf="lat.errors.pattern">
+                          lat should be a valid number.</div>
+            </div>
+	    </div>
+	    <div class="form-group col-4">
+	      <input 
+	      	type="text" 
+	      	class="form-control"
+	      	placeholder="lng"
+	      	required
+	      	ngModel
+	      	name="lng"
+	      	#lng="ngModel"
+	      	pattern="[+-]?([0-9]*[.])?[0-9]+">
+	      	<div class="alert alert-danger" *ngIf="lng.touched && !lng.valid">
+                <div *ngIf="lng.errors.required">This field is required</div>
+                <div *ngIf="lng.errors.pattern">
+                          lng should be a valid number.</div>
+            </div>
+	    </div>
+	    <div class="form-group col-4">
+	    </div>
+	</div>
+  </div> 
+  <div class="form-row justify-content-around col-2">
+  	<button type="submit" class="btn btn-primary col-5" [disabled]="!t.valid">Save</button>
+  	<a class="btn btn-primary col-5 text-white" routerLink="/">Cancel</a>  	
+  </div>
+</form>

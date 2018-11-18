@@ -1,0 +1,15 @@
+<nav>
+    <ul class="list-group" id="list-tab" role="tablist">
+        <li *ngFor="let item of items$">
+            <a 
+            id="list-home-list"
+            class="list-group-item list-group-item-action"
+            data-toggle="list"
+            routerLink="/details/{{item.id}}"
+            role="tab"
+            aria-controls="home">
+               {{ item.company }}
+            </a>
+        </li>
+    </ul>
+</nav>
